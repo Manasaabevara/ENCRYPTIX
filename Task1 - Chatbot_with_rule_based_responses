@@ -39,7 +39,7 @@ def chat():
             print("ChatBot: Goodbye! Have a great day!")
             break
         if user_input.lower() == "nothing":
-            print("ChatBot: Goodbye! Have a great day!")
+            print("ChatBot: Okay then have a great day!")
             break
         response = chatbot_response(user_input)
         print(f"ChatBot: {response}")
